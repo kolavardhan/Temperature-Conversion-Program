@@ -50,3 +50,10 @@ label {
 #convertBtn:hover {
     background-color: hsl(0, 100%, 45%);
 }
+
+#result {
+    color: hsl(245, 87%, 47%);
+    font-size: 1.5em;
+    margin-top: 5px;
+    font-weight: 600;
+}
