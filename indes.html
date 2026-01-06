@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
     <title>Temperature Conversion Program</title>
 </head>
 <body>
+    <form>
+        <h1>Temperature Conversion</h1>
+        <input type="number" value="0" id="userInput"/>
+        <div class="input-box">
+            <input type="radio" id="toFahrenheit" name="unit"/>
+            <label>Celsius ➡️ Fahrenheit</label>
+        </div>
+        <div class="input-box">
+            <input type="radio" id="toCelsius" name="unit"/>
+            <label>Fahrenheit ➡️ Celsius</label>
+        </div>
+        <button type="submit" id="convertBtn">Submit</button>
+    </form>
     <script src="index.js"></script>
 </body>
 </html>
